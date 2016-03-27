@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgW-h0-D01">
+                                <rect key="frame" x="20" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ph2-hn-Xtl">
+                                <rect key="frame" x="20" y="57" width="240" height="235"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TD8-AH-joO">
+                                        <rect key="frame" x="8" y="8" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="top" secondItem="Ph2-hn-Xtl" secondAttribute="top" constant="8" id="BsF-1w-ia5"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="top" secondItem="Ph2-hn-Xtl" secondAttribute="top" constant="8" id="EsQ-xO-UVS"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="leading" secondItem="Ph2-hn-Xtl" secondAttribute="leadingMargin" id="NbU-UC-Zmp"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="leading" secondItem="Ph2-hn-Xtl" secondAttribute="leading" constant="8" id="RXF-gZ-0km"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="leading" secondItem="Ph2-hn-Xtl" secondAttribute="leading" constant="8" id="aVQ-g7-I2s"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="leading" secondItem="Ph2-hn-Xtl" secondAttribute="leading" constant="8" id="gkS-Yk-AwB"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="top" secondItem="Ph2-hn-Xtl" secondAttribute="top" constant="8" id="lw0-aV-f7L"/>
+                                    <constraint firstItem="TD8-AH-joO" firstAttribute="top" secondItem="Ph2-hn-Xtl" secondAttribute="topMargin" id="xDm-NR-tea"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="389"/>
+        </scene>
+    </scenes>
+</document>
